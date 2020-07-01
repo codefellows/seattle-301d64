@@ -35,7 +35,6 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  // console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `const to `const`.
   // the variable (that was const) rando was block scoped (ie it was scoped only to work/live in the code block where it was first "const") and therefore was not an available variable to be called in the log because it doesn't live and is not callable outside of the code block. Case in point, I moved the console.log(rando) code line up into the code block and it did.
   console.log(viewed);
