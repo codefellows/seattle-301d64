@@ -182,4 +182,6 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 // Line 174 returns the whole "window" object. Line 177 is undefined like line 168.
 // 3. Explain why "this" is different when an arrow function is used.
-// I'm not certain. MDN states that "new" can't be used with arrow notation as a constructor, so I created a constructor with dot constructor notation. 
+// I'm not certain. MDN states that "new" can't be used with arrow notation as a constructor, so I created a constructor with dot constructor notation.
+
+// one more line just to jog git's delta.
