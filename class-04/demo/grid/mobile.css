@@ -1,0 +1,14 @@
+body{
+  max-width: 500px;
+}
+
+header, footer, aside, section{
+  border: 1px solid black;
+  text-align: center;
+  height: 200px;
+  line-height: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}

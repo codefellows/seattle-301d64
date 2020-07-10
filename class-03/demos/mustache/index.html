@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Seattle Neighborhood Data</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Begin/Build the demo without this template. Build it as we refactor (Demo part 3) -->
+  <script id="neighborhood-template" type="text/x-tmpl-mustache">
+    <div>
+      <h2>{{name}}</h2>
+      <p>Part of: {{city}}</p>
+      <p>Current population: {{population}}</p>
+      <p>Founded on: {{founded}}</p>
+      {{{body}}}
+    </div>
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <section>
+      <h1>Neighborhood Stats</h1>
+    </section>
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+    <span>&copy; 2018 Fake Data Limited</span>
+  </footer>
+
+  <!-- bring in jQuery  -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+  <!-- bring in mustache  -->
+  <script src="https://unpkg.com/mustache@latest"></script>
+
+  <!-- this is my array that is just a javaScript file -->
+  <script src="js/dataSet.js"></script>
+
+  <!-- this is my javaScript file  -->
+  <script src="js/neighborhood.js"></script>
+</body>
+
+</html>

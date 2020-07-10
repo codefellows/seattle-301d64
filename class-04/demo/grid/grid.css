@@ -1,0 +1,24 @@
+@media only screen and (min-width: 500px){
+  header, footer{
+    max-width: 960px;
+    height: 150px;
+    line-height: 150px;
+  }
+
+  main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+  }
+
+  /* aside:first-child{
+    order: 1;
+  }
+
+  section{
+    order: 2;
+  } */
+
+  aside:nth-child(2){
+    order: 1;
+  }
+}

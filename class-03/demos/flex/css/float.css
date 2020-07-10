@@ -1,0 +1,35 @@
+header{
+  width: 960px;
+  height: 300px;
+  line-height: 300px;
+  border: 1px solid black;
+}
+
+#sidebar1, #sidebar2{
+  float:left;
+  border: 1px solid black;
+  height: 700px;
+  line-height: 700px;
+  width: 200px;
+}
+
+article {
+  float: left;
+  border: 1px solid black;
+  height: 700px;
+  line-height: 700px;
+  width: 560px;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+footer{
+  width: 960px;
+  border: 1px solid black;
+  height: 80px;
+  line-height: 80px;
+  clear: both;
+}
