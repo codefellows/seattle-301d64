@@ -1,4 +1,5 @@
 'use strict';
+//start by creating a package.json by going into your terminal and running the command `npm init`. Make sure that your entry point is server.js rather than index.js. 
 
 // bring in the express library
 // make sure to do an 'npm install -S express' in the terminal
