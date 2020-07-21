@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>todo app</title>
+  </head>
+  <body>
+    <main>
+    <header>
+      <%- include('pages/layout/header.ejs') %>
+      </nav>
+    </header>
+      <section class="task-view container">
+          <ul id="task-list">
+            <% banana.forEach(task => { %>
+              <li class="task-item" data-id="<%= task.id %>">
+                <h4>Task: <%= task.title %></h4>
+                <p>Completion status: <%= task.status %></p>
+                <a href="/tasks/<%= task.id%>">View Details</a>
+              </li>
+            <% }) %>
+          </ul>
+      </section>
+    </main>
+  </body>
+</html>
