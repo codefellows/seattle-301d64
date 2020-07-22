@@ -1,0 +1,10 @@
+
+INSERT INTO books (author, title, isbn, image_url, description) VALUES ('Heruki Murakami','1Q84', 'ISBN_10 0385674678', 'https://books.google.com/books/content?id=CPPxMXgaKhAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api', 'Murakami is like a magician who explains what he’s doing as he performs the trick and still makes you believe he has supernatural powers . . . But while anyone can tell a story that resembles a dream, its the rare artist, like this one, who can make us feel that we are dreaming it ourselves.');
+
+
+INSERT INTO books (author, title, isbn, image_url, description) VALUES('N. K. Jemisin', 'The Fifth Season', 'ISBN_13 9780316229302', 'https://books.google.com/books/content?id=J0tIAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api', 'This is the way the world ends...for the last time. It starts with the great red rift across the heart of the worlds sole continent, spewing ash that blots out the sun. It starts with death, with a murdered son and a missing daughter. It starts with betrayal, and long dormant wounds rising up to fester. This is the Stillness, a land long familiar with catastrophe, where the power of the earth is wielded as a weapon. And where there is no mercy.');
+
+
+INSERT INTO books (author, title, isbn, image_url, description) VALUES('Diana Gabaldon', 'Outlander', 'ISBN_10 0385674678', 'https://books.google.com/books/content?id=X8qKWU08Vp0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api', 'Hurled back in time by forces she cannot understand, Claires destiny in soon inextricably intertwined with Clan MacKenzie and the forbidden Castle Leoch. She is catapulted without warning into the intrigues of lairds and spies that may threaten her life ...and shatter her heart. For here, James Fraser, a gallant young Scots warrior, shows her a passion so fierce and a love so absolute that Claire becomes a woman torn between fidelity and desire...and between two vastly different men in two irreconcilable lives.');
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/styles/reset.css" rel="stylesheet"/>
+  <link href="/styles/base.css" rel="stylesheet"/>
+  <link href="/styles/layout.css" rel="stylesheet"/>
+  <link href="/styles/modules.css" rel="stylesheet"/>
+  <title>Book Collection</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Best Books!</h1>
+    </header>
+    <section class="main-page">
+      <% let counter = 0; %>
+      <% saved.forEach( book => { %>
+        <div class="book-container">
+          <img class="book-image" src="<%= book.image_url %>"/>
+          <h2 class="book-title"><%= book.title %></h2>
+          <h3 class="book-author"><%= book.author %></h3>
+        </div>
+        <% counter++; %>
+        <% }) %>
+        <span class="counter">Total saved books <%= counter %></span>
+    </section>
+  </main>
+</body>
+</html>
